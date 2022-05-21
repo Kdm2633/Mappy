@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_12bf3e70da22407f9eb6ca3d23af8a35 {
+                #map_553a6609fa4f1b60cfcae6882087ec74 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_12bf3e70da22407f9eb6ca3d23af8a35" ></div>
+            <div class="folium-map" id="map_553a6609fa4f1b60cfcae6882087ec74" ></div>
         
 </body>
 <script>    
     
-            var map_12bf3e70da22407f9eb6ca3d23af8a35 = L.map(
-                "map_12bf3e70da22407f9eb6ca3d23af8a35",
+            var map_553a6609fa4f1b60cfcae6882087ec74 = L.map(
+                "map_553a6609fa4f1b60cfcae6882087ec74",
                 {
                     center: [50.715, 24.213],
                     crs: L.CRS.EPSG3857,
-                    zoom: 5,
+                    zoom: 4,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -55,9 +55,15 @@
 
         
     
-            var tile_layer_9ab4f3a9f79d62d00520e7408702a672 = L.tileLayer(
+            var tile_layer_94b70460b39f70c5bcb76408d9d2dc8e = L.tileLayer(
                 "https://api.mapbox.com/styles/v1/lumii/cl3g4e55100aq14qumgn4whkg/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibHVtaWkiLCJhIjoiY2wzZzN3ZGEyMDVnZjNmcDc3Z3Jodm0wbyJ9.oTc222D0JZekjMQD_1EGYw",
-                {"attribution": "mapbox", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_12bf3e70da22407f9eb6ca3d23af8a35);
+                {"attribution": "mapbox", "detectRetina": false, "maxNativeZoom": 7, "maxZoom": 7, "minZoom": 4, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_553a6609fa4f1b60cfcae6882087ec74);
+        
+    
+            var circle_marker_8ef05e349f9bc3beb122efa27799a9cc = L.circleMarker(
+                [50.0, 25.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_553a6609fa4f1b60cfcae6882087ec74);
         
 </script>

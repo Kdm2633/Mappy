@@ -11,9 +11,9 @@
     "templates/map.html": [
       {
         "id": "4d185b95-6f91-4380-b0bc-5dbde3bd079c",
-        "line": 36,
-        "version": 1,
-        "index": 1894
+        "line": 26,
+        "version": 21,
+        "index": 1629
       }
     ]
   }
