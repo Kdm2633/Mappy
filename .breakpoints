@@ -1,0 +1,20 @@
+{
+  "files": {
+    "map.html": [
+      {
+        "id": "10514144-be52-450a-8bfd-11f05b36d021",
+        "line": 14,
+        "version": 8,
+        "index": 530
+      }
+    ],
+    "templates/map.html": [
+      {
+        "id": "4d185b95-6f91-4380-b0bc-5dbde3bd079c",
+        "line": 36,
+        "version": 1,
+        "index": 1894
+      }
+    ]
+  }
+}
