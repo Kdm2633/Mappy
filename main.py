@@ -54,8 +54,7 @@ m = folium.Map(
 # Creating Markers
 print("worked 1")
 folium.CircleMarker(location=[50.000, 25.0000],
-              icon=folium.Icon(color="blue"),
-              draggable=True).add_to(m)
+              radius=50,color="#ffffff").add_to(m)
 print("worked 2")
 # folium.Choropleth(
 #     geo_data=ukr_geo,
